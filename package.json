@@ -1,0 +1,17 @@
+{
+  "description": "",
+  "main": "lib/guide-mini-vue.cjs.js",
+  "module": "lib/guide-mini-vue.esm.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js --watch"
+  },
+  "dependencies": {
+    "rollup": "^4.18.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.3"
+  }
+}

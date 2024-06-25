@@ -1,0 +1,328 @@
+<mxfile host="65bd71144e">
+    <diagram id="R2S9JSXBijWaFpbGCklc" name="第 1 页">
+        <mxGraphModel dx="1765" dy="748" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="288" y="213" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="{count: 10}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="228" y="107" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="238" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4" target="22" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="333" y="343" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="Proxy{count: 10}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="228" y="213" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="reactive函数修饰，变响应式对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="301" y="177" width="192" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="817" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="依赖函数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="757" y="151" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8" target="24" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1001" y="285" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="effect内部执行依赖函数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="757" y="255" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="交给effect函数去执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="834" y="221" width="131" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="reactive函数：将普通对象转换为响应式对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="228" y="57" width="252" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="effect函数：触发fn去给响应式对象收集依赖" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="753" y="102" width="249" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="两对象不相等" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+                    <mxGeometry x="194" y="182" width="85" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="536" y="221" as="sourcePoint"/>
+                        <mxPoint x="717" y="221" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="上来就调用一下fn，交给effect执行去收集&lt;br&gt;fn依赖函数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="512" y="166" width="237" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="抽离出effect执行fn函数的概念，这也是面向对象的一种思想，及时去封装，使用ReactiveEffect" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#3700CC;fillColor=#6a00ff;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="753" y="53" width="518" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="依赖映射关系：target -&amp;gt; key -&amp;gt; dep" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#3700CC;fillColor=#6a00ff;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="757" y="331" width="207" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="get 收集依赖&lt;br&gt;track" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+                    <mxGeometry x="159" y="324" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="set 触发依赖&lt;br&gt;trigger" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+                    <mxGeometry x="294" y="324" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="effect函数返回runner函数，即fn函数本身，调用可以拿取到fn函数返回结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="1010" y="248.5" width="419" height="73" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="effect(fn) ----&amp;gt; function runner ----&amp;gt; fn -----&amp;gt; return" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1019" y="293" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="如果fn函数内部对响应式变量自增，会导致不断执行fn函数去重新收集依赖、触发依赖，会导致无限递归" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1002" y="104" width="566" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="实现effect.scheduler功能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1609" y="180" width="151" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1590" y="227" as="sourcePoint"/>
+                        <mxPoint x="1771" y="227" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="30" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="第一次运行effect会调用effect的第一个参数，即依赖函数去收集依赖" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="1835" y="114" width="234" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="响应式数据变化，如果effect第二参数传了scheduler,而是调用第二个参数options.scheduler函数，并不会执行依赖函数，而是通过调用schedule函数返回的函数，去执行依赖函数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="1835" y="218" width="233" height="93" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="实现effect.stop功能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="2144" y="170" width="121" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="2110" y="217" as="sourcePoint"/>
+                        <mxPoint x="2291" y="217" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="当调用stop(runner)时会销毁deps对应的effect依赖函数(封装成activeEffect对象)，导致无法在进行触发依赖(调用stop，遍历ReactiveEffect对象中存放deps所有依赖函数，删除自身)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="2318" y="167" width="245" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="在trigger触发函数中处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="2016" y="289" width="148" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="在track收集函数中处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="2540" y="231" width="140" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="调用stop过后，需要重新收集依赖" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="2315" y="133" width="197" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;span style=&quot;color: rgb(156, 220, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: rgb(31, 31, 31);&quot;&gt;activeEffect是包含effect函数的对象，对象的&lt;br&gt;deps是收集到的依赖函数(封装成&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: rgb(31, 31, 31);&quot;&gt;activeEffect对象&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: rgb(31, 31, 31);&quot;&gt;)&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="2315" y="75" width="353" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="实现effect.stop的回调onStop功能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="2677" y="173" width="195" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="2680" y="220" as="sourcePoint"/>
+                        <mxPoint x="2861" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="作为effect的配置参数onStop函数，当运行stop函数时，如果存在该onStop配置参数，则执行该回调函数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="2888" y="166" width="245" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="effect函数返回的runner是绑定了this执行的run函数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="2320" y="270" width="286" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="其余情况，都是使用ReactiveEffect封装后的对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="2318" y="305" width="275" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="stop的功能是把收集的依赖剔除" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="2110" y="233" width="185" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="实现readonly函数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="3191" y="177" width="112" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="3152" y="224" as="sourcePoint"/>
+                        <mxPoint x="3333" y="224" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="readonly不会收集依赖、触发依赖，并且不能覆盖值，会抛出一个警告。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="3368" y="167" width="245" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="提取公共逻辑，封装成baseHandlers模块，通过isReadonly值判断是否为需要收集依赖，&lt;br&gt;并在初始化的时候，将函数返回值进行保存，无需多次调用函数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="3368" y="235" width="487" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="实现isReadonly和isReactive功能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="3753" y="170" width="193" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="3754" y="217" as="sourcePoint"/>
+                        <mxPoint x="3935" y="217" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="根据get函数的isReadonly去进行判断，返回布尔值" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="3971" y="159" width="245" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="这里如果给&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;isReadonly和isReactive传的是普通对象&lt;br&gt;那么使用!!将其转换为布尔值即可&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="3969" y="233" width="289" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="优化effect.stop" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="4287" y="173" width="97" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="4240" y="220" as="sourcePoint"/>
+                        <mxPoint x="4421" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="之前的stop调用了，在对响应式变量进行自增操作，还是会进行依赖收集(activeEffect存在)，这不符合我们的stop功能，因此在effect.run函数控制全局变量，用来判断是否在track中应该收集依赖" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="4449" y="159" width="245" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;同时在track中处理了重复收集同个依赖的问题&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="4449" y="242.5" width="260" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;执行stop会清空依赖，但是自增操作，由于activeEffect还是会被track函数进行依赖收集，不符合stop功能，对此进行优化&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="4275" y="124" width="655" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="实现reactive和readonly嵌套对象转换" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="4740" y="174" width="214" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="4751" y="221" as="sourcePoint"/>
+                        <mxPoint x="4932" y="221" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="reactive和readonly目前只能代理对象浅层，如果对象的属性值又是对象，那么深层对象就失去了代理，这不是我们想要的效果，故采用递归的方式去进行深层代理，在get函数中去判断当前属性值是否为对象" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="4991" y="159" width="245" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="模块循环引用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+                    <mxGeometry x="-635" y="511" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="65" target="66" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="a模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="-477" y="456" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" style="edgeStyle=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="66" target="65" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="b模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="-477" y="565" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="实现shallowReadonly功能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="5279" y="174" width="157" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="5274" y="221" as="sourcePoint"/>
+                        <mxPoint x="5455" y="221" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" value="shallowReadonly浅层是readonly响应式对象，深层是普通对象，不具备响应式" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="5489" y="159" width="245" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="实现isProxy功能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="5788" y="174" width="105" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="5757" y="221" as="sourcePoint"/>
+                        <mxPoint x="5938" y="221" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" value="检测对象是不是通过reactive和readonly创建出来的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="5959" y="158.5" width="245" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="实现ref功能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="6263" y="174.5" width="80" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="6219" y="221.5" as="sourcePoint"/>
+                        <mxPoint x="6400" y="221.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="77" value="因为proxy只针对对象进行代理，所以ref包装成&lt;span style=&quot;color: rgb(78, 201, 176); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;RefImpl&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;类对象的形式，将值存储在value属性上，使用dep保存依赖函数，如果value属性值为引用类型，那么使用reactive进行修饰&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="6421" y="159" width="245" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="ref如果修改前后的值，保持一致，那么就无需触发依赖" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="6418" y="240.5" width="308" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="实现isRef和unRef" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="6714" y="172.75" width="113" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="6686" y="219.75" as="sourcePoint"/>
+                        <mxPoint x="6867" y="219.75" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="81" value="isRef判断某个值是否为ref，&lt;span style=&quot;color: rgb(78, 201, 176); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;RefImpl类对象中添加字段__v_isRef，作为校验字段。unRef如果字段为ref那么将它的.value进行返回&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="6888" y="157.25" width="245" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="实现proxyRefs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="7183" y="174.5" width="96" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="7146" y="221.5" as="sourcePoint"/>
+                        <mxPoint x="7327" y="221.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="85" value="proxyRefs对于对象里面的ref都进行解包操作" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="7348" y="159" width="245" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="对于set操作，如果给ref赋值为非ref修饰的值，那么是对ref.value来进行赋值操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="7348" y="233" width="444" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="computed通过其它响应式变量的改变得到新值，返回值使用类对象进行包裹，同时会收集函数参数作为响应式变量的依赖函数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="7859" y="154" width="245" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#6a00ff;strokeColor=#3700CC;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="7657" y="216.5" as="sourcePoint"/>
+                        <mxPoint x="7838" y="216.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="90" value="实现computed" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="7695" y="169.5" width="95" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="computed函数的返回值与effect函数返回值不同，功能是类似的，使用ReactiveEffect去完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="7859" y="235" width="501" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="不调用.value，就不会触发依赖函数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="7859" y="257" width="206" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="通过传调度器的方式，避免触发依赖时又调用依赖函数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="7859" y="283" width="306" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="问题：如何避免响应式变量自增带来的死循环操作，导致effect.run方法始终结束不了？&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="7762" y="-49" width="476" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="主要操作在trigger触发依赖中，当前执行函数与将要执行的函数一致，就跳过操作，否则又会触发run方法，导致无限递归" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="7759" y="-4" width="657" height="26" as="geometry"/>
+                </mxCell>
+                <UserObject label="https://zhuanlan.zhihu.com/p/694829454" link="https://zhuanlan.zhihu.com/p/694829454" id="97">
+                    <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                        <mxGeometry x="8246" y="-48.99666666666663" width="244" height="36" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

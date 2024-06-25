@@ -1,0 +1,117 @@
+<mxfile host="65bd71144e">
+    <diagram id="Zd8OmQ9tb1BxPvMavNCt" name="第 1 页">
+        <mxGraphModel dx="1062" dy="266" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.492;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-38" y="215" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="组件配置对象" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="-98" y="76" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-38" y="289.42857142857144" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="组件配置对象转换成虚拟节点vnode" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="-98" y="186" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="{render,setup}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="17" y="100" width="93" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="createVnode" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="-75" y="144" width="86" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="{type:组件配置对象/element&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;,&lt;/span&gt;props,children,shapeFlag,el}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="26" y="210" width="321" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="createComponentInstance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="-111" y="251" width="159" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="虚拟节点转换成组件实例对象" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="-98" y="288" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="{vnode:&lt;br&gt;{type:组件配置对象/element,props,children,shapeFlag,el}&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;,&lt;br&gt;&lt;/span&gt;type:组件配置对象/element,&lt;br&gt;setupState,&lt;br&gt;props,&lt;br&gt;emit,&lt;br&gt;slots}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="22" y="265" width="324" height="113" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="15" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;vnode和container传给render，render内部&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;调用patch&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="527" y="119" width="194" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;vnode和container传给patch，patch根据&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;vnode是component/element做处理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="226" width="233" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="组件实例对象会存储一些组件上面必要的属性，例如props、slots、render、setupState" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="-93" y="379" width="477" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="调用render是拆箱的一个过程，组件并不会渲染出来，渲染出来的是render函数内部元素的值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="-106" y="444" width="507" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="如果是componet则继续调用patch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="409" y="444" width="196" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="vnode" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#3700CC;fillColor=#6a00ff;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="352" y="210" width="51" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="component" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#3700CC;fillColor=#6a00ff;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="115.5" y="100" width="77" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="componentInstance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#3700CC;fillColor=#6a00ff;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="352" y="314" width="123" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="component/element组件配置对象都挂载到type属性上" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="278" y="50" width="302" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.509;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="26" target="28" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-135" y="665" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="渲染component" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="-195" y="569" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="28" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-137" y="763" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="component转vnode&lt;br&gt;调用render(vnode,container)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="-223.5" y="667" width="173" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="render内部调用patch，patch根据vnode判断是渲染组件还是渲染element&lt;br&gt;&lt;br&gt;也就是说patch用于做递归处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="-253.25" y="768" width="232.5" height="102" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="往组件的vnode.el挂载对应根节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="5" y="832" width="195" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="使用位运算去判断vnode类型，以及children，性能高，js编译之后对于位运算的处理比通过对象的方式快得多" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="5" y="586" width="593" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="可读性重要，还是性能重要&amp;nbsp; &amp;nbsp;可读性&amp;gt;性能&amp;nbsp; &amp;nbsp;真的需要提高性能的时候在优化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="5" y="620" width="417" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="优化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="587" y="599" width="42" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="虚拟节点的props赋值给组件实例对象的props，如果没用，则设为{}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="5" y="655" width="374" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="如果给组件传children，则相当给instance.$slots赋值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="5" y="689" width="295" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="elemnet的children只能是string/array&lt;br&gt;component的children只能是object" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="216" y="809" width="211" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="如果element的children是array，并且array里面还有string的话，必须将string转换成vnode的方式，&lt;br&gt;默认都认为array里面都是vnode类型，如果vnode是string字符串，那么进入patch就不会继续处理了" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="143" y="869" width="541" height="41" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
